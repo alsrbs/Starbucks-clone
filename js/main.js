@@ -99,7 +99,7 @@ function floatingObject(selector, delay, size) {
       y: size,
       repeat: -1,
       yoyo: true,
-      ease: power1.inOut,
+      ease: Power1.easeInOut,
       delay: random(0, delay)
     }
   );
